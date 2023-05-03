@@ -32,3 +32,10 @@ a = 5
 end
 
 puts a
+
+# Five types of variables. Constants, globa variables, class variables, instance variables, and local variables
+
+MY_CONSTANT = 'I am available throughout your app.' # Constant variable. Declared by all caps per ruby convention
+$var = 'I am also available throughout your app' # Global variable. Start with a dollar sign
+@@instance = 'I am available throughout the current instance of this class' # Class variable. Declared with @@. Available throughout the current instance of the parent class.
+var = 'I must be passed around to cross scope boundries' # Local variable. started with $ or @ and lowercased
