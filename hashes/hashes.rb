@@ -50,7 +50,7 @@
 # => {{:key=>"key"}=>"hash as a key"}
 
 # key?{"bob" => 42} chrck iff a hash contains a specific key
-# select{ |k, v| == "Bob"} allows you to pass a block and will return any key-value pairs that evaluare to true when passes to the block.
+# select{ |k, v| == "Bob"} allows you to pass a block and will return any key-value pairs that evaluate to true when passes to the block.
 # fetch("Larry", "Larry isn't in this hash") pass a given key and it will return the value for that key if it exists. can 
 # to_a returns an array version of your hash. Doesn't modify hash permanently.
-# keys and values if you want to just retriece all the keys or all the values out of a hash
+# keys and values if you want to just retrieve all the keys or all the values out of a hash
